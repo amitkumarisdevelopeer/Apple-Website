@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #F5F5F7;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: green; */
+}
+#nav{
+    height: 7%;
+    width: 100%;
+    background-color: #000000c9;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 9999;
+    
+}
+
+#head{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.645);
+    font-size: 13px;
+    font-family: "gilroy";
+}
+a i{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.755);
+}
+#nav2{
+    height: 7%;
+    background-color: #000000ca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: "gilroy";
+    color: white;
+    
+    
+}
+#shop{
+    color: rgba(0, 170, 255, 0.801);
+    font-size: 15px;
+}
+#shop:hover{
+    text-decoration: underline;
+}
+#down1{
+    height: 86%;
+    width: 100%;
+    /* background-color: red; */
+    background-position: top;
+   background-size: cover;
+   background-image: url("./apple.png");
+   cursor: pointer;
+   transition: all 0.5s ease-in-out;
+   background-attachment: fixed;
+}
+#down1:hover{
+    background-size: cover;
+    background-image: url("https://www.igeeksblog.com/wp-content/uploads/2021/08/Download-free-Black-walllpapers-for-iPhone.jpg");
+    background-position: center;
+}
+
+#down2{
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    background-position: top;
+   background-size: cover;
+   background-image: url("./apple2.png");
+   cursor: pointer;
+   transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275)1s;
+}
+#down2:hover{
+    background-image: url("https://kalingatv.com/wp-content/uploads/2021/03/4612ff4f8aa67f64113c64f74a9871cc-750x430.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#videotag{
+    height: 90%;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    top: 3%;
+   
+}
+#videotag video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+#text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    font-family: "gilroy";
+}
+
+ #text>h1{
+     font-size: 150px;
+     color: rgba(240, 236, 236, 0.887);
+    
+     letter-spacing: 20px;
+     font-family: "posey textured";
+}
+#text>h2{
+   position: relative;
+   left: 15%;
+   font-size: 40px;
+   color: rgba(255, 255, 255, 0.963);
+   
+}
+#text> h3{
+    position: relative;
+   left: 15%;
+   font-size: 40px;
+   color: rgba(255, 255, 255, 0.747);
+   
+    
+}
+
+#main2{
+    height: 90%;
+    width: 100%;
+    /* background-color: blue; */
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+#pic1{
+    height: 90%;
+    width: 48%;
+    background-color: red;
+    top: 5%;
+    position: relative;
+    left: 1%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1573920011462-eb3003086611?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+
+
+}
+#pic2{
+    height: 90%;
+    width: 48%;
+    background-color: rgb(0, 119, 255);
+    top: 5%;
+    position: relative;
+    right: 1%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1621849110892-ed482d9e922e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80);
+
+}
+#main3{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#pic3{
+    height: 90%;
+    width: 48%;
+    background-color: rgb(255, 208, 0);
+    top: 1%;
+    position: relative;
+    left: 1%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1543582890-139a4ff9946e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1530&q=80);
+
+
+}
+#pic4{
+    height: 90%;
+    width: 48%;
+    background-color: rgb(255, 0, 119);
+    top: 1%;
+    position: relative;
+    right: 1%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1574602526089-988ac5a80023?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
+
+
+}
+img{
+    object-fit: cover;
+}
+#im1{
+    position: relative;
+    left: 15%;
+}
